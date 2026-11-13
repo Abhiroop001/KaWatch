@@ -144,7 +144,7 @@ uvicorn main:app --reload --port 8000
 - `POST /predict-cnn` — Upload an image to run DenseNet121 CNN inference (returns `stable` vs `unstable` classification & confidence).
 - `POST /predict-classical` — Send numerical slope parameters to evaluate geological failure probability.
 - `GET /files/{filename}` — Serve uploaded source files.
-- `GET /outputs/{filename}` — Serve processed output annotations.
+- `GET /outputs/{filename}` — Serve processed output annotations..
 
 ---
 
